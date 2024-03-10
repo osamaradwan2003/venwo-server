@@ -8,6 +8,13 @@
     "start": "dotenvx run --env-file=.env.prod -- node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "imports": {
+    "@": "./",
+    "@modals": "./src/modals",
+    "@controllers": "./src/controllers",
+    "@middleware": "./src/middleware",
+    "@routes": "./src/routes"
+  },
   "author": "venwo",
   "license": "ISC",
   "dependencies": {
